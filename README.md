@@ -1,6 +1,6 @@
 # vue-frame
 
-> This is A Vue.js project
+> This is a Vue.js project
 
 ## Build Setup
 
