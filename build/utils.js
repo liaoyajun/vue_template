@@ -49,6 +49,7 @@ exports.cssLoaders = function (options) {
     css: generateLoaders(),
     postcss: generateLoaders(),
     less: generateLoaders('less'),
+    // 配置过
     sass: generateLoaders('sass', { indentedSyntax: true, includePaths: [path.resolve(__dirname, '../src/sass')] }),
     scss: generateLoaders('sass'),
     stylus: generateLoaders('stylus'),
