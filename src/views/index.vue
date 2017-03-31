@@ -1,6 +1,6 @@
 <template lang="jade">
 .cp-index
-  h1 my-vue-frame-master
+  h1 my-vue-frame
 </template>
 <script>
 export default {
@@ -37,11 +37,11 @@ export default {
     width: r(700)
     height: r(100)
     line-height: r(100)
-    font-size: r(60)
+    font-size: r(80)
     text-align: center
     background:
       image: linear-gradient(to right bottom, #F00,  #F60,  #FF0,  #0C0,  #699,  #06C, #909)
       size: 100% 100%
-    color: transparent
-    -webkit-background-clip: text
+    // color: transparent
+    // -webkit-background-clip: text
 </style>

@@ -8,6 +8,7 @@
     "dev": "node build/dev-server.js & npm run server",
     "build": "node build/build.js",
     "server": "json-server server/index.js --routes server/routes.json --watch --port 3001",
+    "pushDev": "bash ./build/pushDev.sh",
     "pushMaster": "bash ./build/pushMaster.sh"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
 #!/bin/bash
-msg='PM:_'
+msg='PD:_'
 
 if [ -n "$1" ]
 then
@@ -9,7 +9,3 @@ fi
 git add .
 git commit -m $msg
 git push origin dev
-git checkout master
-git merge dev
-git push origin master
-git checkout dev
