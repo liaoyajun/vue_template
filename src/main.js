@@ -21,7 +21,7 @@ document.querySelector('html').style.fontSize = `${document.body.clientWidth / 7
 window.onresize = function () {
   document.querySelector('html').style.fontSize = `${document.body.clientWidth / 750 * 32}px`
 }
-setTimeout(() => {
-    document.body.removeChild(document.getElementById('ad_3v'))
-    console.log('clear ad')
-}, 100)
+// setTimeout(() => {
+//     document.body.removeChild(document.getElementById('ad_3v'))
+//     console.log('clear ad')
+// }, 100)

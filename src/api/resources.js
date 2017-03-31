@@ -1,10 +1,8 @@
 import Axios from 'axios'
 import Qs from 'qs'
-// import App from 'common/app'
-// let host = '//app.intv.com.cn/'
-// let host = App.isProd ? '//app.intv.com.cn/' : '//app.myintv.com.cn/'
-// if (App.queryHref('localdb')) host = 'http://10.16.0.171:3001'
-let host = 'http://10.16.0.22:3001/'
+import App from 'common/app'
+let host = App.isProd ? '正' : '测'
+if (App.isLocal) host = 'http://127.0.0.1:3001'
 Axios.defaults.baseURL = host
 Axios.defaults.timeout = 10000
 Axios.defaults.withCredentials = true
