@@ -1,6 +1,6 @@
 <template lang="jade">
 .cp-index
-  h1 my-vue-frame
+  h1 my-vue-frame-master
 </template>
 <script>
 export default {
@@ -34,10 +34,10 @@ export default {
     position: center center
   h1
     margin: auto
-    width: r(600)
+    width: r(700)
     height: r(100)
     line-height: r(100)
-    font-size: r(80)
+    font-size: r(60)
     text-align: center
     background:
       image: linear-gradient(to right bottom, #F00,  #F60,  #FF0,  #0C0,  #699,  #06C, #909)
