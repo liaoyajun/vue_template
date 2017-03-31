@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 msg='push:'
 
 if [ -n "$1" ]
