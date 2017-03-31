@@ -1,7 +1,6 @@
 # vue-frame-dev
 
 > This is a Vue.js project
-略略略
 
 ## Build Setup
 
