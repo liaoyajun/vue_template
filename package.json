@@ -8,7 +8,7 @@
     "dev": "node build/dev-server.js & npm run server",
     "build": "node build/build.js",
     "server": "json-server server/index.js --routes server/routes.json --watch --port 3001",
-    "pushMaster": "bash ./build/pushMaster.sh"
+    "pushDev": "bash ./build/pushDev.sh"
   },
   "dependencies": {
     "vue": "^2.2.2",
