@@ -5,6 +5,7 @@ import app from './App'
 import App from './common/app'
 import api from './api/'
 import router from './router'
+var vConsole = require('./plugin/vconsole.min.js');
 App.api = api
 App.userInfo = {}
 window.App = App
