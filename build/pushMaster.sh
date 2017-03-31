@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-msg='push'
+msg='push:'
 
 if [ -n "$1" ]
 then
