@@ -1,5 +1,5 @@
 #!/bin/bash
-msg='pushMaster:'
+msg='PM:_'
 
 if [ -n "$1" ]
 then
