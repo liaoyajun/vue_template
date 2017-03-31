@@ -14,6 +14,11 @@ export default {
     time = time < 1000 ? `[${time}ms]` : `[${(time / 1000).toFixed(2)}s]`
     console.log(time, msg)
   },
+  logc (msg) {
+    let time = Date.now() - this.startTime
+    time = time < 1000 ? `[${time}ms]` : `[${(time / 1000).toFixed(2)}s]`
+    console.log('%c' + time + '%c' + msg, 'font-size: 1em;', 'background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #F00), color-stop(0.17, #F60), color-stop(0.33, #FF0), color-stop(0.5, #0C0), color-stop(0.67, #699), color-stop(0.83, #06C), color-stop(1, #909) ); color: transparent; -webkit-background-clip: text; font-size: 1.2em;')
+  },
   hideLoading () {
     document.querySelector('#loading').style.display = 'none'
   },
