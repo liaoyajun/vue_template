@@ -1,6 +1,6 @@
-<template lang="jade">
+<template lang="pug">
 .cp-index
-  h1 my-vue-frame
+  h1 my-vue
 </template>
 <script>
 export default {
