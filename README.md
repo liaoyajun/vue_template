@@ -1,4 +1,4 @@
-# vue-frame-dev
+# vue-template
 
 > This is a Vue.js project
 
