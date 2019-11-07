@@ -49,7 +49,7 @@ exports.cssLoaders = function (options) {
     css: generateLoaders(),
     postcss: generateLoaders(),
     less: generateLoaders('less'),
-    // 配置过
+    // 配置过，为什么可以直接 @import 'config' ，是因为这个
     sass: generateLoaders('sass', { indentedSyntax: true, includePaths: [path.resolve(__dirname, '../src/sass')] }),
     scss: generateLoaders('sass'),
     stylus: generateLoaders('stylus'),
